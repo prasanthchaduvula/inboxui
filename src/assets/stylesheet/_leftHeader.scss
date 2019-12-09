@@ -1,0 +1,37 @@
+.left-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: rgb(45, 55, 72);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  width: 16rem;
+}
+.left-header-avatar {
+  display: flex;
+  align-items: center;
+}
+.avatar {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatar-name {
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+.avatar-downarrow {
+  width: 1.5rem;
+  color: #cbd5e0;
+  stroke: currentColor;
+  height: 1.5rem;
+}

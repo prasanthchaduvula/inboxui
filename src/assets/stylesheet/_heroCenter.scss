@@ -1,0 +1,63 @@
+.hero-center {
+  width: 20rem;
+  border: 0 solid #e2e8f0;
+}
+.sortby {
+  background-color: #edf2f7;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sortbydate {
+  display: flex;
+  align-items: center;
+}
+.sort-down-arrow {
+  color: #a0aec0;
+  margin-left: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+.sort-img {
+  width: 1.5rem;
+  color: #a0aec0;
+  fill: currentColor;
+  height: 1.5rem;
+}
+.overflow {
+  overflow: scroll;
+  width: 20rem;
+  height: calc(100vh - 96px);
+}
+.mail-box {
+  padding: 0.75rem 1.5rem;
+  background-color: white;
+  border: 0.5px solid #e2e8f0;
+}
+.mailto-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.mailto {
+  font-size: 0.875rem;
+  color: #1a202c;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.mailtime {
+  font-size: 0.75rem;
+  color: #718096;
+  line-height: 1.5;
+}
+.mailsub {
+  font-size: 0.875rem;
+  color: #4a5568;
+  line-height: 1.5;
+}
+.mailbody {
+  font-size: 0.875rem;
+  color: #718096;
+  margin-top: 0.5rem;
+  line-height: 1.5;
+}

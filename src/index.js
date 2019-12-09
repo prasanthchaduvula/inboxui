@@ -1,12 +1,32 @@
+// var React = require("react");
 import React from 'react';
+
+// var ReactDom = require("react-dom");
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
 
+// importing stylesheet
+import '../src/assets/stylesheet/style.scss';
+
+// importing components
+import LeftHeader from './components/LeftHeader';
+import RightHeader from './components/RightHeader';
+import HeroLeft from './components/HeroLeft';
+import HeroCenter from './components/HeroCenter';
+import HeroRight from './components/HeroRight';
+// App component
+function App() {
+  return (
+    <>
+      <div className="header">
+        <LeftHeader />
+        <RightHeader />
+      </div>
+      <div className="hero">
+        <HeroLeft />
+        <HeroCenter />
+        <HeroRight />
+      </div>
+    </>
+  );
+}
 ReactDOM.render(<App />, document.getElementById('root'));
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
